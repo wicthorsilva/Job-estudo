@@ -1,0 +1,107 @@
+html {
+    position: relative;
+}
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+img { /*estilo da logo da pagina*/
+    margin-left: 25%;
+    width: 400px;
+    height: 110px;
+}
+
+select { /*Botão de seleção do pagina*/
+    margin-left: 25%;
+    margin-top: 18px;
+    height: 25px;
+}
+
+main { /*tag para definir o tamando da pagina para conteudos*/
+    height: 55.5vh;
+}
+
+.logo { /*cor do plano de fundo da div da logo*/
+    background: rgb(113, 206, 193);
+}
+
+.usuario { /*Estilo do botão usuario*/
+    background-color: rgb(19, 14, 14);
+    position: absolute;
+    top: -2px;
+    margin-left: 87.35%;
+    height: 10px;
+}
+.buttonuser { /*borda do botão usuario*/
+    border-radius: 6px;
+}
+
+.select_op { /*Div da tag select*/
+    background-color: rgb(17, 17, 75);
+    height: 7vh;
+}
+
+.title-div{ /*estilo da div do cabeçalho*/
+    background-color: rgb(17, 17, 75);
+    height: 65px;
+    width: 85.5%;
+    margin-left: 7.7%;
+    margin-top: 4%;
+}
+.title-page { /*Estilo do titulo da Div do cabeçalho*/
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    margin: -1%;
+}
+
+/*Estilo da tabela*/
+.tabela {
+    margin-left: 4%;
+    justify-content: center;
+    
+    padding: 56px;
+}
+.tab-title {
+    background-color: rgb(113, 206, 193) ;
+    font-size: 17px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/*Alinhamento de texto da tabela*/
+table, th, td {
+    text-align: center;   
+}
+
+/*Bordas da tabela*/
+td, th{
+    border-width: 1.7px;
+    border-style: solid;
+    border-collapse: collapse;
+}
+    
+
+th, td {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 192px;
+    height: 15px;
+    padding: 5px 10px;
+    margin: 1px;
+}
+
+
+/*Estilo do rodapé da pagina*/
+footer {
+    background-color: rgb(113, 206, 193);
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+
+}
+p {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
